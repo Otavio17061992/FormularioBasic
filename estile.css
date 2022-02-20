@@ -1,0 +1,64 @@
+ main{
+    padding: 0;
+    margin: 0px;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./E-1090124-FDE0D8FE.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* e agora a regra de ouro que fará a imagem ocupar todo o viewport */
+    background-size: 100% 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-cabecalho > .link-cabecalho {
+    margin-left: 10px;
+    font: 18px Arial;
+    text-decoration: none;
+    color: black;
+}
+
+.div-conteudo-principal {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-principal-box {
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    padding: 25px;
+    flex-direction: column;
+    background: rgb(0, 0, 0) transparent;
+    background: rgba(0, 0, 0, 0.7); 
+    /* Para navegadores IE 5.5 - 7 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000000);
+    /* Para navegadores IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#000000)";
+ }
+
+ h2 {
+     color: antiquewhite;
+     font: 22px;
+ }
+
+label {
+    color: antiquewhite;
+    font: 18px;
+}
